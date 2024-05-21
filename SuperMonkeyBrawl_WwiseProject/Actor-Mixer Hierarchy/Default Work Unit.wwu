@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SoundEffectTest" ID="{3D3458C6-C4A0-4BE7-B289-78E758E774A7}" ShortID="674848131">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wii-Sports-Title-_HQ_" ID="{5DCB18C5-3944-4045-9CD4-92725F660E5F}">
+							<Language>SFX</Language>
+							<AudioFile>Wii-Sports-Title-_HQ_.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="839871426"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wii-Sports-Title-_HQ_" ID="{5DCB18C5-3944-4045-9CD4-92725F660E5F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41D585EF-1F96-4198-B7FE-0CF173CCC427}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{41D585EF-1F96-4198-B7FE-0CF173CCC427}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="soundTestPlaying" ID="{C0B51A25-49AB-4B57-8268-A63B007D114D}">
+					<ChildrenList>
+						<Action Name="" ID="{26D53106-ED91-46E1-AA79-0B1856AB8AF6}" ShortID="624743431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundEffectTest" ID="{3D3458C6-C4A0-4BE7-B289-78E758E774A7}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

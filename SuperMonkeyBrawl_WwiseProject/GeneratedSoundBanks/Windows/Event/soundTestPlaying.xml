@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1195541208" Type="Event" GUID="{C0B51A25-49AB-4B57-8268-A63B007D114D}" Language="SFX" Hash="{2AE25FBC-8632-869B-037C-5E1A7A205E81}">
+			<ObjectPath>soundTestPlaying</ObjectPath>
+			<ShortName>soundTestPlaying</ShortName>
+			<Path>Event/soundTestPlaying.bnk</Path>
+			<Media>
+				<File Id="839871426" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wii-Sports-Title-_HQ_.wav</ShortName>
+					<Path>Media/839871426.wem</Path>
+					<CachePath>SFX/Wii-Sports-Title-_HQ__818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1195541208" Name="soundTestPlaying" ObjectPath="\Events\Default Work Unit\soundTestPlaying" GUID="{C0B51A25-49AB-4B57-8268-A63B007D114D}" DurationType="OneShot" DurationMin="144.12625" DurationMax="144.12625">
+					<MediaRefs>
+						<MediaRef Id="839871426"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EA1792CF-1EE0-2616-80F7-3A5E686693FD}</FileHash>
+</SoundBanksInfo>
