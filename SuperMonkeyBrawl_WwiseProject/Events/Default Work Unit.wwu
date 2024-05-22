@@ -3,12 +3,89 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{41D585EF-1F96-4198-B7FE-0CF173CCC427}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="soundTestPlaying" ID="{C0B51A25-49AB-4B57-8268-A63B007D114D}">
+				<Event Name="MenuAmbiance" ID="{414C1946-E7D4-4B53-994E-784E7B6ED85C}">
 					<ChildrenList>
-						<Action Name="" ID="{26D53106-ED91-46E1-AA79-0B1856AB8AF6}" ShortID="624743431">
+						<Action Name="" ID="{F38220CB-863B-4C89-B6DC-9322E79079B8}" ShortID="874660473">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SoundEffectTest" ID="{3D3458C6-C4A0-4BE7-B289-78E758E774A7}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+									<ObjectRef Name="ambianceMenu" ID="{8594B38E-5C8B-49F4-BF9A-F3C790CFFEBE}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="JeuAmbiance" ID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}">
+					<ChildrenList>
+						<Action Name="" ID="{1BD44EFC-2706-44D5-B5DB-E23DBE45B06B}" ShortID="349723307">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bruit ambiance" ID="{4309CD24-A531-41ED-AC26-42EE4CBBE72C}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Click" ID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}">
+					<ChildrenList>
+						<Action Name="" ID="{6290C80C-4DFF-4352-A18E-CAD93DEA1FAB}" ShortID="285281303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="click" ID="{810E6F89-F41B-4EBF-B92D-E4336C69D6A6}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Impact" ID="{CACF35B4-E345-4AAD-AE94-866105F79554}">
+					<ChildrenList>
+						<Action Name="" ID="{07C50E6C-E8E1-4B4B-9D56-D15AA1CE43D0}" ShortID="21257478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomInpact" ID="{70FB8FF4-3961-4E18-8A80-C4408BEE40E1}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dead" ID="{26E02227-689E-45F8-80DD-3637A16A21F7}">
+					<ChildrenList>
+						<Action Name="" ID="{0074BC70-DC75-484A-A3BE-E519B1DEDC5C}" ShortID="24816014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact4" ID="{98BD4DC7-7CF5-4343-846D-9055EFE0263D}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="InstantShield" ID="{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}">
+					<ChildrenList>
+						<Action Name="" ID="{7FBE4CFC-A543-4867-8445-C975E5F6892B}" ShortID="98653540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="instantShield" ID="{F60D6512-6F2C-463C-AF54-C46EAF98A221}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Punch" ID="{637391E7-7F27-44DC-A57B-22FFD7976FE1}">
+					<ChildrenList>
+						<Action Name="" ID="{627A14AC-79A5-46F9-849B-FB070A8527E8}" ShortID="829157089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomPunch" ID="{7B7AE04A-190E-4FA4-83AD-A000FEC06D6D}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SuspenseDepartRound" ID="{9AF6432F-61DA-4343-A8B9-775185C943AB}">
+					<ChildrenList>
+						<Action Name="" ID="{31CEF44A-5757-4F87-98BD-8A8381401836}" ShortID="756690867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Suspense-3-2-1" ID="{5BADC304-C02D-400C-8D2B-B3BF76407413}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="645565787" Type="Event" GUID="{637391E7-7F27-44DC-A57B-22FFD7976FE1}" Language="SFX" Hash="{2492A42B-2FC8-7D29-67A4-D00DB811BDF7}">
+			<ObjectPath>Punch</ObjectPath>
+			<ShortName>Punch</ShortName>
+			<Path>Event/Punch.bnk</Path>
+			<Media>
+				<File Id="6906310" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch2.wav</ShortName>
+					<Path>Media/6906310.wem</Path>
+					<CachePath>SFX/Punch2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35860440" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch4.wav</ShortName>
+					<Path>Media/35860440.wem</Path>
+					<CachePath>SFX/Punch4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="38732995" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch3.wav</ShortName>
+					<Path>Media/38732995.wem</Path>
+					<CachePath>SFX/Punch3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="761816650" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch1.wav</ShortName>
+					<Path>Media/761816650.wem</Path>
+					<CachePath>SFX/Punch1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="645565787" Name="Punch" ObjectPath="\Events\Default Work Unit\Punch" GUID="{637391E7-7F27-44DC-A57B-22FFD7976FE1}" DurationType="OneShot" DurationMin="0.5014966" DurationMax="0.6462812">
+					<MediaRefs>
+						<MediaRef Id="6906310"/>
+						<MediaRef Id="35860440"/>
+						<MediaRef Id="38732995"/>
+						<MediaRef Id="761816650"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C925EA8F-0AC9-1C4E-F46C-A7D02315F261}</FileHash>
+</SoundBanksInfo>

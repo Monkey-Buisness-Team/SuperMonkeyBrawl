@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{55C71471-1C8A-2B0D-B802-335AB838EBB2}">
+			<ObjectPath>Dead</ObjectPath>
+			<ShortName>Dead</ShortName>
+			<Path>Event/Dead.bnk</Path>
+			<Media>
+				<File Id="356742842" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact4.wav</ShortName>
+					<Path>Media/356742842.wem</Path>
+					<CachePath>SFX/Impact4_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Dead" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" DurationType="OneShot" DurationMin="1.7829595" DurationMax="1.7829595">
+					<MediaRefs>
+						<MediaRef Id="356742842"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7C1EF134-66F5-1942-5F7C-5FCC10A36CCF}</FileHash>
+</SoundBanksInfo>

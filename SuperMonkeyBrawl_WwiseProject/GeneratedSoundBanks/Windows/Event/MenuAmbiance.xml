@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3074451236" Type="Event" GUID="{414C1946-E7D4-4B53-994E-784E7B6ED85C}" Language="SFX" Hash="{41D0B7E7-D977-D22B-96C3-06CC89FC6DFB}">
+			<ObjectPath>MenuAmbiance</ObjectPath>
+			<ShortName>MenuAmbiance</ShortName>
+			<Path>Event/MenuAmbiance.bnk</Path>
+			<Media>
+				<File Id="253207680" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ambianceMenu.wav</ShortName>
+					<Path>Media/253207680.wem</Path>
+					<CachePath>SFX/ambianceMenu_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3074451236" Name="MenuAmbiance" ObjectPath="\Events\Default Work Unit\MenuAmbiance" GUID="{414C1946-E7D4-4B53-994E-784E7B6ED85C}" DurationType="OneShot" DurationMin="198.06041" DurationMax="198.06041">
+					<MediaRefs>
+						<MediaRef Id="253207680"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{49DE7AEB-6CD5-1112-0816-4F4191B7E1E6}</FileHash>
+</SoundBanksInfo>

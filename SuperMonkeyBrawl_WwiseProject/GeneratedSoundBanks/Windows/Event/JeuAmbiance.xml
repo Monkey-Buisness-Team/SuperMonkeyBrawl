@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="849702087" Type="Event" GUID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}" Language="SFX" Hash="{1B2EBB12-6D87-0D6D-27E0-D450B721D2E3}">
+			<ObjectPath>JeuAmbiance</ObjectPath>
+			<ShortName>JeuAmbiance</ShortName>
+			<Path>Event/JeuAmbiance.bnk</Path>
+			<Media>
+				<File Id="198526701" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bruit ambiance.wav</ShortName>
+					<Path>Media/198526701.wem</Path>
+					<CachePath>SFX/Bruit ambiance_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="849702087" Name="JeuAmbiance" ObjectPath="\Events\Default Work Unit\JeuAmbiance" GUID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}" DurationType="OneShot" DurationMin="198.54547" DurationMax="198.54547">
+					<MediaRefs>
+						<MediaRef Id="198526701"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{291E2AF3-D886-7B7D-9926-849B1F9A6839}</FileHash>
+</SoundBanksInfo>

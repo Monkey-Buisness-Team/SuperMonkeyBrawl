@@ -9,21 +9,96 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1195541208" Type="Event" GUID="{C0B51A25-49AB-4B57-8268-A63B007D114D}" Language="SFX" Hash="{2AE25FBC-8632-869B-037C-5E1A7A205E81}">
-			<ObjectPath>soundTestPlaying</ObjectPath>
-			<ShortName>soundTestPlaying</ShortName>
-			<Path>Event/soundTestPlaying.bnk</Path>
+		<SoundBank Id="296058775" Type="Event" GUID="{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}" Language="SFX" Hash="{EA554C0B-FAC2-55EB-1FE3-A45864359CA9}">
+			<ObjectPath>InstantShield</ObjectPath>
+			<ShortName>InstantShield</ShortName>
+			<Path>Event/InstantShield.bnk</Path>
 			<Media>
-				<File Id="839871426" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Wii-Sports-Title-_HQ_.wav</ShortName>
-					<Path>Media/839871426.wem</Path>
-					<CachePath>SFX/Wii-Sports-Title-_HQ__818F3B66.wem</CachePath>
+				<File Id="1014360330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>instantShield.wav</ShortName>
+					<Path>Media/1014360330.wem</Path>
+					<CachePath>SFX/instantShield_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1195541208" Name="soundTestPlaying" ObjectPath="\Events\Default Work Unit\soundTestPlaying" GUID="{C0B51A25-49AB-4B57-8268-A63B007D114D}" DurationType="OneShot" DurationMin="144.12625" DurationMax="144.12625">
+				<Event Id="296058775" Name="InstantShield" ObjectPath="\Events\Default Work Unit\InstantShield" GUID="{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}" DurationType="OneShot" DurationMin="2.0665834" DurationMax="2.0665834">
 					<MediaRefs>
-						<MediaRef Id="839871426"/>
+						<MediaRef Id="1014360330"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="645565787" Type="Event" GUID="{637391E7-7F27-44DC-A57B-22FFD7976FE1}" Language="SFX" Hash="{2492A42B-2FC8-7D29-67A4-D00DB811BDF7}">
+			<ObjectPath>Punch</ObjectPath>
+			<ShortName>Punch</ShortName>
+			<Path>Event/Punch.bnk</Path>
+			<Media>
+				<File Id="6906310" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch2.wav</ShortName>
+					<Path>Media/6906310.wem</Path>
+					<CachePath>SFX/Punch2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35860440" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch4.wav</ShortName>
+					<Path>Media/35860440.wem</Path>
+					<CachePath>SFX/Punch4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="38732995" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch3.wav</ShortName>
+					<Path>Media/38732995.wem</Path>
+					<CachePath>SFX/Punch3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="761816650" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Punch1.wav</ShortName>
+					<Path>Media/761816650.wem</Path>
+					<CachePath>SFX/Punch1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="645565787" Name="Punch" ObjectPath="\Events\Default Work Unit\Punch" GUID="{637391E7-7F27-44DC-A57B-22FFD7976FE1}" DurationType="OneShot" DurationMin="0.5014966" DurationMax="0.6462812">
+					<MediaRefs>
+						<MediaRef Id="6906310"/>
+						<MediaRef Id="35860440"/>
+						<MediaRef Id="38732995"/>
+						<MediaRef Id="761816650"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="849702087" Type="Event" GUID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}" Language="SFX" Hash="{1B2EBB12-6D87-0D6D-27E0-D450B721D2E3}">
+			<ObjectPath>JeuAmbiance</ObjectPath>
+			<ShortName>JeuAmbiance</ShortName>
+			<Path>Event/JeuAmbiance.bnk</Path>
+			<Media>
+				<File Id="198526701" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bruit ambiance.wav</ShortName>
+					<Path>Media/198526701.wem</Path>
+					<CachePath>SFX/Bruit ambiance_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="849702087" Name="JeuAmbiance" ObjectPath="\Events\Default Work Unit\JeuAmbiance" GUID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}" DurationType="OneShot" DurationMin="198.54547" DurationMax="198.54547">
+					<MediaRefs>
+						<MediaRef Id="198526701"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}">
+			<ObjectPath>SuspenseDepartRound</ObjectPath>
+			<ShortName>SuspenseDepartRound</ShortName>
+			<Path>Event/SuspenseDepartRound.bnk</Path>
+			<Media>
+				<File Id="1042688671" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Suspense-3-2-1.wav</ShortName>
+					<Path>Media/1042688671.wem</Path>
+					<CachePath>SFX/Suspense-3-2-1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1082794189" Name="SuspenseDepartRound" ObjectPath="\Events\Default Work Unit\SuspenseDepartRound" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" DurationType="OneShot" DurationMin="10.63475" DurationMax="10.63475">
+					<MediaRefs>
+						<MediaRef Id="1042688671"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -42,6 +117,94 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="1584507803" Type="Event" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" Language="SFX" Hash="{DBD918D0-D8B4-6B1D-4BEB-98DDEA4395D7}">
+			<ObjectPath>Click</ObjectPath>
+			<ShortName>Click</ShortName>
+			<Path>Event/Click.bnk</Path>
+			<Media>
+				<File Id="823040339" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>click.wav</ShortName>
+					<Path>Media/823040339.wem</Path>
+					<CachePath>SFX/click_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" DurationType="OneShot" DurationMin="0.552" DurationMax="0.552">
+					<MediaRefs>
+						<MediaRef Id="823040339"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{55C71471-1C8A-2B0D-B802-335AB838EBB2}">
+			<ObjectPath>Dead</ObjectPath>
+			<ShortName>Dead</ShortName>
+			<Path>Event/Dead.bnk</Path>
+			<Media>
+				<File Id="356742842" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact4.wav</ShortName>
+					<Path>Media/356742842.wem</Path>
+					<CachePath>SFX/Impact4_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Dead" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" DurationType="OneShot" DurationMin="1.7829595" DurationMax="1.7829595">
+					<MediaRefs>
+						<MediaRef Id="356742842"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3074451236" Type="Event" GUID="{414C1946-E7D4-4B53-994E-784E7B6ED85C}" Language="SFX" Hash="{41D0B7E7-D977-D22B-96C3-06CC89FC6DFB}">
+			<ObjectPath>MenuAmbiance</ObjectPath>
+			<ShortName>MenuAmbiance</ShortName>
+			<Path>Event/MenuAmbiance.bnk</Path>
+			<Media>
+				<File Id="253207680" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ambianceMenu.wav</ShortName>
+					<Path>Media/253207680.wem</Path>
+					<CachePath>SFX/ambianceMenu_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3074451236" Name="MenuAmbiance" ObjectPath="\Events\Default Work Unit\MenuAmbiance" GUID="{414C1946-E7D4-4B53-994E-784E7B6ED85C}" DurationType="OneShot" DurationMin="198.06041" DurationMax="198.06041">
+					<MediaRefs>
+						<MediaRef Id="253207680"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{F1F3689C-1AFA-8F17-FF56-14BD87780401}">
+			<ObjectPath>Impact</ObjectPath>
+			<ShortName>Impact</ShortName>
+			<Path>Event/Impact.bnk</Path>
+			<Media>
+				<File Id="67861379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact1.wav</ShortName>
+					<Path>Media/67861379.wem</Path>
+					<CachePath>SFX/Impact1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464405179" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact3.wav</ShortName>
+					<Path>Media/464405179.wem</Path>
+					<CachePath>SFX/Impact3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="565242774" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact2.wav</ShortName>
+					<Path>Media/565242774.wem</Path>
+					<CachePath>SFX/Impact2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3257506471" Name="Impact" ObjectPath="\Events\Default Work Unit\Impact" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" DurationType="OneShot" DurationMin="1.1688371" DurationMax="1.6641024">
+					<MediaRefs>
+						<MediaRef Id="67861379"/>
+						<MediaRef Id="464405179"/>
+						<MediaRef Id="565242774"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92744C8A-0F0D-A5A6-0640-EC6DDD47FE26}</FileHash>
+	<FileHash>{C4A3111D-67A1-9D93-4D77-5817C8AAE97F}</FileHash>
 </SoundBanksInfo>

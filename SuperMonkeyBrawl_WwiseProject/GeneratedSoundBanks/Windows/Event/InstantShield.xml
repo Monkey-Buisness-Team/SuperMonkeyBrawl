@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="296058775" Type="Event" GUID="{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}" Language="SFX" Hash="{EA554C0B-FAC2-55EB-1FE3-A45864359CA9}">
+			<ObjectPath>InstantShield</ObjectPath>
+			<ShortName>InstantShield</ShortName>
+			<Path>Event/InstantShield.bnk</Path>
+			<Media>
+				<File Id="1014360330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>instantShield.wav</ShortName>
+					<Path>Media/1014360330.wem</Path>
+					<CachePath>SFX/instantShield_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="296058775" Name="InstantShield" ObjectPath="\Events\Default Work Unit\InstantShield" GUID="{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}" DurationType="OneShot" DurationMin="2.0665834" DurationMax="2.0665834">
+					<MediaRefs>
+						<MediaRef Id="1014360330"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9966E0A0-BB69-8B7A-5F1A-3D3E105C514B}</FileHash>
+</SoundBanksInfo>

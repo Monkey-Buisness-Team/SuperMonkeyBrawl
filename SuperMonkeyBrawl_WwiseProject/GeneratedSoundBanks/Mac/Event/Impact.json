@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3257506471",
+    "Type": "Event",
+    "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
+    "Language": "SFX",
+    "Hash": "{F1F3689C-1AFA-8F17-FF56-14BD87780401}",
+    "ObjectPath": "Impact",
+    "ShortName": "Impact",
+    "Path": "Event/Impact.bnk",
+    "Media": [
+     {
+      "Id": "67861379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact1.wav",
+      "Path": "Media/67861379.wem",
+      "CachePath": "SFX/Impact1_818F3B66.wem"
+     },
+     {
+      "Id": "464405179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact3.wav",
+      "Path": "Media/464405179.wem",
+      "CachePath": "SFX/Impact3_818F3B66.wem"
+     },
+     {
+      "Id": "565242774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact2.wav",
+      "Path": "Media/565242774.wem",
+      "CachePath": "SFX/Impact2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Impact",
+      "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1688371",
+      "DurationMax": "1.6641024",
+      "MediaRefs": [
+       {
+        "Id": "67861379"
+       },
+       {
+        "Id": "464405179"
+       },
+       {
+        "Id": "565242774"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{839DA28D-02BA-CB6C-9420-AD4E24E69513}"
+ }
+}

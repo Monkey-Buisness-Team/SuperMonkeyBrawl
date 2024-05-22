@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{F1F3689C-1AFA-8F17-FF56-14BD87780401}">
+			<ObjectPath>Impact</ObjectPath>
+			<ShortName>Impact</ShortName>
+			<Path>Event/Impact.bnk</Path>
+			<Media>
+				<File Id="67861379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact1.wav</ShortName>
+					<Path>Media/67861379.wem</Path>
+					<CachePath>SFX/Impact1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464405179" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact3.wav</ShortName>
+					<Path>Media/464405179.wem</Path>
+					<CachePath>SFX/Impact3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="565242774" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Impact2.wav</ShortName>
+					<Path>Media/565242774.wem</Path>
+					<CachePath>SFX/Impact2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3257506471" Name="Impact" ObjectPath="\Events\Default Work Unit\Impact" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" DurationType="OneShot" DurationMin="1.1688371" DurationMax="1.6641024">
+					<MediaRefs>
+						<MediaRef Id="67861379"/>
+						<MediaRef Id="464405179"/>
+						<MediaRef Id="565242774"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AB9FA331-A8A9-0AFA-17C3-CD21022CE16C}</FileHash>
+</SoundBanksInfo>

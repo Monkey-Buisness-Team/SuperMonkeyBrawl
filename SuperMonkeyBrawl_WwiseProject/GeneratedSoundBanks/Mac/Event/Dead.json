@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2044049779",
+    "Type": "Event",
+    "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
+    "Language": "SFX",
+    "Hash": "{55C71471-1C8A-2B0D-B802-335AB838EBB2}",
+    "ObjectPath": "Dead",
+    "ShortName": "Dead",
+    "Path": "Event/Dead.bnk",
+    "Media": [
+     {
+      "Id": "356742842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact4.wav",
+      "Path": "Media/356742842.wem",
+      "CachePath": "SFX/Impact4_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2044049779",
+      "Name": "Dead",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dead",
+      "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7829595",
+      "DurationMax": "1.7829595",
+      "MediaRefs": [
+       {
+        "Id": "356742842"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9306DAEA-0507-9B12-169F-5E15FD809586}"
+ }
+}

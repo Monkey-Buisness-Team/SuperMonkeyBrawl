@@ -14,37 +14,184 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
-    "Id": "1195541208",
+    "Id": "296058775",
     "Type": "Event",
-    "GUID": "{C0B51A25-49AB-4B57-8268-A63B007D114D}",
+    "GUID": "{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}",
     "Language": "SFX",
-    "Hash": "{2AE25FBC-8632-869B-037C-5E1A7A205E81}",
-    "ObjectPath": "soundTestPlaying",
-    "ShortName": "soundTestPlaying",
-    "Path": "Event/soundTestPlaying.bnk",
+    "Hash": "{EA554C0B-FAC2-55EB-1FE3-A45864359CA9}",
+    "ObjectPath": "InstantShield",
+    "ShortName": "InstantShield",
+    "Path": "Event/InstantShield.bnk",
     "Media": [
      {
-      "Id": "839871426",
+      "Id": "1014360330",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Wii-Sports-Title-_HQ_.wav",
-      "Path": "Media/839871426.wem",
-      "CachePath": "SFX/Wii-Sports-Title-_HQ__818F3B66.wem"
+      "ShortName": "instantShield.wav",
+      "Path": "Media/1014360330.wem",
+      "CachePath": "SFX/instantShield_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "1195541208",
-      "Name": "soundTestPlaying",
-      "ObjectPath": "\\Events\\Default Work Unit\\soundTestPlaying",
-      "GUID": "{C0B51A25-49AB-4B57-8268-A63B007D114D}",
+      "Id": "296058775",
+      "Name": "InstantShield",
+      "ObjectPath": "\\Events\\Default Work Unit\\InstantShield",
+      "GUID": "{63C2E6E7-4650-4E1D-9186-B0A94F1A627C}",
       "DurationType": "OneShot",
-      "DurationMin": "144.12625",
-      "DurationMax": "144.12625",
+      "DurationMin": "2.0665834",
+      "DurationMax": "2.0665834",
       "MediaRefs": [
        {
-        "Id": "839871426"
+        "Id": "1014360330"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "645565787",
+    "Type": "Event",
+    "GUID": "{637391E7-7F27-44DC-A57B-22FFD7976FE1}",
+    "Language": "SFX",
+    "Hash": "{2492A42B-2FC8-7D29-67A4-D00DB811BDF7}",
+    "ObjectPath": "Punch",
+    "ShortName": "Punch",
+    "Path": "Event/Punch.bnk",
+    "Media": [
+     {
+      "Id": "6906310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Punch2.wav",
+      "Path": "Media/6906310.wem",
+      "CachePath": "SFX/Punch2_818F3B66.wem"
+     },
+     {
+      "Id": "35860440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Punch4.wav",
+      "Path": "Media/35860440.wem",
+      "CachePath": "SFX/Punch4_818F3B66.wem"
+     },
+     {
+      "Id": "38732995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Punch3.wav",
+      "Path": "Media/38732995.wem",
+      "CachePath": "SFX/Punch3_818F3B66.wem"
+     },
+     {
+      "Id": "761816650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Punch1.wav",
+      "Path": "Media/761816650.wem",
+      "CachePath": "SFX/Punch1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "645565787",
+      "Name": "Punch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Punch",
+      "GUID": "{637391E7-7F27-44DC-A57B-22FFD7976FE1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5014966",
+      "DurationMax": "0.6462812",
+      "MediaRefs": [
+       {
+        "Id": "6906310"
+       },
+       {
+        "Id": "35860440"
+       },
+       {
+        "Id": "38732995"
+       },
+       {
+        "Id": "761816650"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "849702087",
+    "Type": "Event",
+    "GUID": "{FDA340C5-E6B2-479B-BA0D-AD2175330753}",
+    "Language": "SFX",
+    "Hash": "{1B2EBB12-6D87-0D6D-27E0-D450B721D2E3}",
+    "ObjectPath": "JeuAmbiance",
+    "ShortName": "JeuAmbiance",
+    "Path": "Event/JeuAmbiance.bnk",
+    "Media": [
+     {
+      "Id": "198526701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bruit ambiance.wav",
+      "Path": "Media/198526701.wem",
+      "CachePath": "SFX/Bruit ambiance_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "849702087",
+      "Name": "JeuAmbiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\JeuAmbiance",
+      "GUID": "{FDA340C5-E6B2-479B-BA0D-AD2175330753}",
+      "DurationType": "OneShot",
+      "DurationMin": "198.54547",
+      "DurationMax": "198.54547",
+      "MediaRefs": [
+       {
+        "Id": "198526701"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1082794189",
+    "Type": "Event",
+    "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
+    "Language": "SFX",
+    "Hash": "{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}",
+    "ObjectPath": "SuspenseDepartRound",
+    "ShortName": "SuspenseDepartRound",
+    "Path": "Event/SuspenseDepartRound.bnk",
+    "Media": [
+     {
+      "Id": "1042688671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Suspense-3-2-1.wav",
+      "Path": "Media/1042688671.wem",
+      "CachePath": "SFX/Suspense-3-2-1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1082794189",
+      "Name": "SuspenseDepartRound",
+      "ObjectPath": "\\Events\\Default Work Unit\\SuspenseDepartRound",
+      "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.63475",
+      "DurationMax": "10.63475",
+      "MediaRefs": [
+       {
+        "Id": "1042688671"
        }
       ]
      }
@@ -87,8 +234,180 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ]
+   },
+   {
+    "Id": "1584507803",
+    "Type": "Event",
+    "GUID": "{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}",
+    "Language": "SFX",
+    "Hash": "{DBD918D0-D8B4-6B1D-4BEB-98DDEA4395D7}",
+    "ObjectPath": "Click",
+    "ShortName": "Click",
+    "Path": "Event/Click.bnk",
+    "Media": [
+     {
+      "Id": "823040339",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "click.wav",
+      "Path": "Media/823040339.wem",
+      "CachePath": "SFX/click_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1584507803",
+      "Name": "Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\Click",
+      "GUID": "{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.552",
+      "DurationMax": "0.552",
+      "MediaRefs": [
+       {
+        "Id": "823040339"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2044049779",
+    "Type": "Event",
+    "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
+    "Language": "SFX",
+    "Hash": "{55C71471-1C8A-2B0D-B802-335AB838EBB2}",
+    "ObjectPath": "Dead",
+    "ShortName": "Dead",
+    "Path": "Event/Dead.bnk",
+    "Media": [
+     {
+      "Id": "356742842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact4.wav",
+      "Path": "Media/356742842.wem",
+      "CachePath": "SFX/Impact4_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2044049779",
+      "Name": "Dead",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dead",
+      "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7829595",
+      "DurationMax": "1.7829595",
+      "MediaRefs": [
+       {
+        "Id": "356742842"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3074451236",
+    "Type": "Event",
+    "GUID": "{414C1946-E7D4-4B53-994E-784E7B6ED85C}",
+    "Language": "SFX",
+    "Hash": "{41D0B7E7-D977-D22B-96C3-06CC89FC6DFB}",
+    "ObjectPath": "MenuAmbiance",
+    "ShortName": "MenuAmbiance",
+    "Path": "Event/MenuAmbiance.bnk",
+    "Media": [
+     {
+      "Id": "253207680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ambianceMenu.wav",
+      "Path": "Media/253207680.wem",
+      "CachePath": "SFX/ambianceMenu_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3074451236",
+      "Name": "MenuAmbiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\MenuAmbiance",
+      "GUID": "{414C1946-E7D4-4B53-994E-784E7B6ED85C}",
+      "DurationType": "OneShot",
+      "DurationMin": "198.06041",
+      "DurationMax": "198.06041",
+      "MediaRefs": [
+       {
+        "Id": "253207680"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3257506471",
+    "Type": "Event",
+    "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
+    "Language": "SFX",
+    "Hash": "{F1F3689C-1AFA-8F17-FF56-14BD87780401}",
+    "ObjectPath": "Impact",
+    "ShortName": "Impact",
+    "Path": "Event/Impact.bnk",
+    "Media": [
+     {
+      "Id": "67861379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact1.wav",
+      "Path": "Media/67861379.wem",
+      "CachePath": "SFX/Impact1_818F3B66.wem"
+     },
+     {
+      "Id": "464405179",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact3.wav",
+      "Path": "Media/464405179.wem",
+      "CachePath": "SFX/Impact3_818F3B66.wem"
+     },
+     {
+      "Id": "565242774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Impact2.wav",
+      "Path": "Media/565242774.wem",
+      "CachePath": "SFX/Impact2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Impact",
+      "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1688371",
+      "DurationMax": "1.6641024",
+      "MediaRefs": [
+       {
+        "Id": "67861379"
+       },
+       {
+        "Id": "464405179"
+       },
+       {
+        "Id": "565242774"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{062A54E8-A36C-12DE-5646-83E15A174682}"
+  "FileHash": "{E5C713D1-AD11-0442-090F-77D789BC4F60}"
  }
 }

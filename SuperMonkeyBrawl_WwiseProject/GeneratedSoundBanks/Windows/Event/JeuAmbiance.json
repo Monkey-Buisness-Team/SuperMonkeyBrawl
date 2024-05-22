@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "849702087",
+    "Type": "Event",
+    "GUID": "{FDA340C5-E6B2-479B-BA0D-AD2175330753}",
+    "Language": "SFX",
+    "Hash": "{1B2EBB12-6D87-0D6D-27E0-D450B721D2E3}",
+    "ObjectPath": "JeuAmbiance",
+    "ShortName": "JeuAmbiance",
+    "Path": "Event/JeuAmbiance.bnk",
+    "Media": [
+     {
+      "Id": "198526701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bruit ambiance.wav",
+      "Path": "Media/198526701.wem",
+      "CachePath": "SFX/Bruit ambiance_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "849702087",
+      "Name": "JeuAmbiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\JeuAmbiance",
+      "GUID": "{FDA340C5-E6B2-479B-BA0D-AD2175330753}",
+      "DurationType": "OneShot",
+      "DurationMin": "198.54547",
+      "DurationMax": "198.54547",
+      "MediaRefs": [
+       {
+        "Id": "198526701"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B4ED3B20-9BC1-630E-16CB-D46CCB8F47E4}"
+ }
+}

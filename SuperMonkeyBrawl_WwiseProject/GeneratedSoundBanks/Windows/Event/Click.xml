@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1584507803" Type="Event" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" Language="SFX" Hash="{DBD918D0-D8B4-6B1D-4BEB-98DDEA4395D7}">
+			<ObjectPath>Click</ObjectPath>
+			<ShortName>Click</ShortName>
+			<Path>Event/Click.bnk</Path>
+			<Media>
+				<File Id="823040339" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>click.wav</ShortName>
+					<Path>Media/823040339.wem</Path>
+					<CachePath>SFX/click_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" DurationType="OneShot" DurationMin="0.552" DurationMax="0.552">
+					<MediaRefs>
+						<MediaRef Id="823040339"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D0146AD6-8802-62DE-B484-1ECE2BA79774}</FileHash>
+</SoundBanksInfo>
