@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{EE37E91E-816E-A744-5601-3DF11DE96005}">
+			<ObjectPath>KO</ObjectPath>
+			<ShortName>KO</ShortName>
+			<Path>Event/KO.bnk</Path>
+			<Media>
+				<File Id="195917413" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>KO.wav</ShortName>
+					<Path>Media/195917413.wem</Path>
+					<CachePath>SFX/KO_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719082483" Name="KO" ObjectPath="\Events\Default Work Unit\KO" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" DurationType="OneShot" DurationMin="1.2337415" DurationMax="1.2337415">
+					<MediaRefs>
+						<MediaRef Id="195917413"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{81D775F6-84B4-E992-0ED2-D903F92AFAD0}</FileHash>
+</SoundBanksInfo>

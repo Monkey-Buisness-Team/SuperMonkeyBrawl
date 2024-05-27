@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
     "Language": "SFX",
-    "Hash": "{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}",
+    "Hash": "{1765DEF2-8B5E-7660-2107-F96F3C41FAED}",
     "ObjectPath": "SuspenseDepartRound",
     "ShortName": "SuspenseDepartRound",
     "Path": "Event/SuspenseDepartRound.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Suspense-3-2-1.wav",
       "Path": "Media/1042688671.wem",
-      "CachePath": "SFX/Suspense-3-2-1_818F3B66.wem"
+      "CachePath": "SFX/Suspense-3-2-1_0021B44C.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SuspenseDepartRound",
       "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
       "DurationType": "OneShot",
-      "DurationMin": "10.63475",
-      "DurationMax": "10.63475",
+      "DurationMin": "8.653768",
+      "DurationMax": "8.653768",
       "MediaRefs": [
        {
         "Id": "1042688671"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{27678C02-58AE-507F-5EDA-F32404D02477}"
+  "FileHash": "{6921F539-3E11-D932-CD5A-5288467D87E1}"
  }
 }

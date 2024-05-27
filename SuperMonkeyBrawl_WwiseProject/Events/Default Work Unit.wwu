@@ -91,6 +91,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="_321Fight" ID="{9AA94435-A7F4-4F5E-87D7-6248090319D6}">
+					<ChildrenList>
+						<Action Name="" ID="{0B48A84F-85D1-413D-87AB-31EB60D702F4}" ShortID="1037513716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="321Fight" ID="{D2DC4F9E-F9EB-4DDB-97A0-F44485D1B178}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GetReady" ID="{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}">
+					<ChildrenList>
+						<Action Name="" ID="{52F0DA8E-C748-444E-BF53-699CFBA6FBB1}" ShortID="314320644">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetReady" ID="{E265E526-FF81-46C9-B7EF-006D1CF71469}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KO" ID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}">
+					<ChildrenList>
+						<Action Name="" ID="{878A4DBF-876C-4CDF-BA6A-D4F757F04844}" ShortID="85403496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="KO" ID="{C9AE698C-194C-44E5-A7C7-F857354552E4}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Victoire" ID="{22D65973-0F63-4BE6-9F69-956740FC6D86}">
+					<ChildrenList>
+						<Action Name="" ID="{ABC5CCBA-DED0-4DC6-A242-50FCBAE2A345}" ShortID="959011007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victoire" ID="{F9716600-628A-483D-A86E-FEB2020BAE19}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

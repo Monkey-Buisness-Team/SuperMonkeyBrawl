@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1349978464",
+    "Type": "Event",
+    "GUID": "{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}",
+    "Language": "SFX",
+    "Hash": "{D6AEBC93-9001-E455-AD1B-3203D7A91EB6}",
+    "ObjectPath": "GetReady",
+    "ShortName": "GetReady",
+    "Path": "Event/GetReady.bnk",
+    "Media": [
+     {
+      "Id": "350215718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GetReady.wav",
+      "Path": "Media/350215718.wem",
+      "CachePath": "SFX/GetReady_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1349978464",
+      "Name": "GetReady",
+      "ObjectPath": "\\Events\\Default Work Unit\\GetReady",
+      "GUID": "{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4744898",
+      "DurationMax": "1.4744898",
+      "MediaRefs": [
+       {
+        "Id": "350215718"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{49D4B479-6E2F-462E-69B0-D9FED21D0AE8}"
+ }
+}

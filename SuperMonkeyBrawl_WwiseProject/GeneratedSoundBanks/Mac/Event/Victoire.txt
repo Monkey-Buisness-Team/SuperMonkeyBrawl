@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	881761348	Victoire			\Default Work Unit\Victoire	
+

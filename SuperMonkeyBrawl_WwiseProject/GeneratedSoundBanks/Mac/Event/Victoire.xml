@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="881761348" Type="Event" GUID="{22D65973-0F63-4BE6-9F69-956740FC6D86}" Language="SFX" Hash="{00CEFB6B-AA3D-3B3A-620D-82B8BF63F9B3}">
+			<ObjectPath>Victoire</ObjectPath>
+			<ShortName>Victoire</ShortName>
+			<Path>Event/Victoire.bnk</Path>
+			<Media>
+				<File Id="384266273" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Victoire.wav</ShortName>
+					<Path>Media/384266273.wem</Path>
+					<CachePath>SFX/Victoire_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="881761348" Name="Victoire" ObjectPath="\Events\Default Work Unit\Victoire" GUID="{22D65973-0F63-4BE6-9F69-956740FC6D86}" DurationType="OneShot" DurationMin="1.2209297" DurationMax="1.2209297">
+					<MediaRefs>
+						<MediaRef Id="384266273"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{64DC1FEA-50E2-4E13-6D15-67B16198E343}</FileHash>
+</SoundBanksInfo>

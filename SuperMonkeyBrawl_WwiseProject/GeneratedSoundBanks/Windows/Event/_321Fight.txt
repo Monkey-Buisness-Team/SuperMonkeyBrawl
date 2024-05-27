@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2709628650	_321Fight			\Default Work Unit\_321Fight	
+

@@ -84,7 +84,26 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}">
+		<SoundBank Id="881761348" Type="Event" GUID="{22D65973-0F63-4BE6-9F69-956740FC6D86}" Language="SFX" Hash="{00CEFB6B-AA3D-3B3A-620D-82B8BF63F9B3}">
+			<ObjectPath>Victoire</ObjectPath>
+			<ShortName>Victoire</ShortName>
+			<Path>Event/Victoire.bnk</Path>
+			<Media>
+				<File Id="384266273" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Victoire.wav</ShortName>
+					<Path>Media/384266273.wem</Path>
+					<CachePath>SFX/Victoire_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="881761348" Name="Victoire" ObjectPath="\Events\Default Work Unit\Victoire" GUID="{22D65973-0F63-4BE6-9F69-956740FC6D86}" DurationType="OneShot" DurationMin="1.2209297" DurationMax="1.2209297">
+					<MediaRefs>
+						<MediaRef Id="384266273"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{1765DEF2-8B5E-7660-2107-F96F3C41FAED}">
 			<ObjectPath>SuspenseDepartRound</ObjectPath>
 			<ShortName>SuspenseDepartRound</ShortName>
 			<Path>Event/SuspenseDepartRound.bnk</Path>
@@ -92,13 +111,32 @@
 				<File Id="1042688671" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Suspense-3-2-1.wav</ShortName>
 					<Path>Media/1042688671.wem</Path>
-					<CachePath>SFX/Suspense-3-2-1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Suspense-3-2-1_0021B44C.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1082794189" Name="SuspenseDepartRound" ObjectPath="\Events\Default Work Unit\SuspenseDepartRound" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" DurationType="OneShot" DurationMin="10.63475" DurationMax="10.63475">
+				<Event Id="1082794189" Name="SuspenseDepartRound" ObjectPath="\Events\Default Work Unit\SuspenseDepartRound" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" DurationType="OneShot" DurationMin="8.653768" DurationMax="8.653768">
 					<MediaRefs>
 						<MediaRef Id="1042688671"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1349978464" Type="Event" GUID="{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}" Language="SFX" Hash="{D6AEBC93-9001-E455-AD1B-3203D7A91EB6}">
+			<ObjectPath>GetReady</ObjectPath>
+			<ShortName>GetReady</ShortName>
+			<Path>Event/GetReady.bnk</Path>
+			<Media>
+				<File Id="350215718" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>GetReady.wav</ShortName>
+					<Path>Media/350215718.wem</Path>
+					<CachePath>SFX/GetReady_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1349978464" Name="GetReady" ObjectPath="\Events\Default Work Unit\GetReady" GUID="{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}" DurationType="OneShot" DurationMin="1.4744898" DurationMax="1.4744898">
+					<MediaRefs>
+						<MediaRef Id="350215718"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -136,6 +174,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{EE37E91E-816E-A744-5601-3DF11DE96005}">
+			<ObjectPath>KO</ObjectPath>
+			<ShortName>KO</ShortName>
+			<Path>Event/KO.bnk</Path>
+			<Media>
+				<File Id="195917413" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>KO.wav</ShortName>
+					<Path>Media/195917413.wem</Path>
+					<CachePath>SFX/KO_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1719082483" Name="KO" ObjectPath="\Events\Default Work Unit\KO" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" DurationType="OneShot" DurationMin="1.2337415" DurationMax="1.2337415">
+					<MediaRefs>
+						<MediaRef Id="195917413"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{55C71471-1C8A-2B0D-B802-335AB838EBB2}">
 			<ObjectPath>Dead</ObjectPath>
 			<ShortName>Dead</ShortName>
@@ -151,6 +208,25 @@
 				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Dead" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" DurationType="OneShot" DurationMin="1.7829595" DurationMax="1.7829595">
 					<MediaRefs>
 						<MediaRef Id="356742842"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2709628650" Type="Event" GUID="{9AA94435-A7F4-4F5E-87D7-6248090319D6}" Language="SFX" Hash="{1B9159EA-7B93-7F69-0EFD-069517743E9E}">
+			<ObjectPath>_321Fight</ObjectPath>
+			<ShortName>_321Fight</ShortName>
+			<Path>Event/_321Fight.bnk</Path>
+			<Media>
+				<File Id="219847582" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>321Fight.wav</ShortName>
+					<Path>Media/219847582.wem</Path>
+					<CachePath>SFX/321Fight_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2709628650" Name="_321Fight" ObjectPath="\Events\Default Work Unit\_321Fight" GUID="{9AA94435-A7F4-4F5E-87D7-6248090319D6}" DurationType="OneShot" DurationMin="3.477483" DurationMax="3.477483">
+					<MediaRefs>
+						<MediaRef Id="219847582"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -174,7 +250,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{F1F3689C-1AFA-8F17-FF56-14BD87780401}">
+		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{984AA117-4393-8F4A-84ED-81D67E055AE7}">
 			<ObjectPath>Impact</ObjectPath>
 			<ShortName>Impact</ShortName>
 			<Path>Event/Impact.bnk</Path>
@@ -206,5 +282,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C4A3111D-67A1-9D93-4D77-5817C8AAE97F}</FileHash>
+	<FileHash>{070C5251-BC02-3D1F-BCCE-739672F24F0A}</FileHash>
 </SoundBanksInfo>

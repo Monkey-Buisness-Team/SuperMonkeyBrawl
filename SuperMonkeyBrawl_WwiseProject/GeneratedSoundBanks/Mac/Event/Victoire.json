@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "881761348",
+    "Type": "Event",
+    "GUID": "{22D65973-0F63-4BE6-9F69-956740FC6D86}",
+    "Language": "SFX",
+    "Hash": "{00CEFB6B-AA3D-3B3A-620D-82B8BF63F9B3}",
+    "ObjectPath": "Victoire",
+    "ShortName": "Victoire",
+    "Path": "Event/Victoire.bnk",
+    "Media": [
+     {
+      "Id": "384266273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Victoire.wav",
+      "Path": "Media/384266273.wem",
+      "CachePath": "SFX/Victoire_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "881761348",
+      "Name": "Victoire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Victoire",
+      "GUID": "{22D65973-0F63-4BE6-9F69-956740FC6D86}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2209297",
+      "DurationMax": "1.2209297",
+      "MediaRefs": [
+       {
+        "Id": "384266273"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A80B732D-4D90-5759-34BE-75209C86B70E}"
+ }
+}

@@ -161,11 +161,48 @@
     ]
    },
    {
+    "Id": "881761348",
+    "Type": "Event",
+    "GUID": "{22D65973-0F63-4BE6-9F69-956740FC6D86}",
+    "Language": "SFX",
+    "Hash": "{00CEFB6B-AA3D-3B3A-620D-82B8BF63F9B3}",
+    "ObjectPath": "Victoire",
+    "ShortName": "Victoire",
+    "Path": "Event/Victoire.bnk",
+    "Media": [
+     {
+      "Id": "384266273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Victoire.wav",
+      "Path": "Media/384266273.wem",
+      "CachePath": "SFX/Victoire_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "881761348",
+      "Name": "Victoire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Victoire",
+      "GUID": "{22D65973-0F63-4BE6-9F69-956740FC6D86}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2209297",
+      "DurationMax": "1.2209297",
+      "MediaRefs": [
+       {
+        "Id": "384266273"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1082794189",
     "Type": "Event",
     "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
     "Language": "SFX",
-    "Hash": "{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}",
+    "Hash": "{1765DEF2-8B5E-7660-2107-F96F3C41FAED}",
     "ObjectPath": "SuspenseDepartRound",
     "ShortName": "SuspenseDepartRound",
     "Path": "Event/SuspenseDepartRound.bnk",
@@ -177,7 +214,7 @@
       "Location": "Loose",
       "ShortName": "Suspense-3-2-1.wav",
       "Path": "Media/1042688671.wem",
-      "CachePath": "SFX/Suspense-3-2-1_818F3B66.wem"
+      "CachePath": "SFX/Suspense-3-2-1_0021B44C.wem"
      }
     ],
     "Events": [
@@ -187,11 +224,48 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SuspenseDepartRound",
       "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
       "DurationType": "OneShot",
-      "DurationMin": "10.63475",
-      "DurationMax": "10.63475",
+      "DurationMin": "8.653768",
+      "DurationMax": "8.653768",
       "MediaRefs": [
        {
         "Id": "1042688671"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1349978464",
+    "Type": "Event",
+    "GUID": "{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}",
+    "Language": "SFX",
+    "Hash": "{D6AEBC93-9001-E455-AD1B-3203D7A91EB6}",
+    "ObjectPath": "GetReady",
+    "ShortName": "GetReady",
+    "Path": "Event/GetReady.bnk",
+    "Media": [
+     {
+      "Id": "350215718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GetReady.wav",
+      "Path": "Media/350215718.wem",
+      "CachePath": "SFX/GetReady_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1349978464",
+      "Name": "GetReady",
+      "ObjectPath": "\\Events\\Default Work Unit\\GetReady",
+      "GUID": "{4B78BF9A-8963-43E8-AE22-519B5B8F51E1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4744898",
+      "DurationMax": "1.4744898",
+      "MediaRefs": [
+       {
+        "Id": "350215718"
        }
       ]
      }
@@ -273,6 +347,43 @@
     ]
    },
    {
+    "Id": "1719082483",
+    "Type": "Event",
+    "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
+    "Language": "SFX",
+    "Hash": "{EE37E91E-816E-A744-5601-3DF11DE96005}",
+    "ObjectPath": "KO",
+    "ShortName": "KO",
+    "Path": "Event/KO.bnk",
+    "Media": [
+     {
+      "Id": "195917413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KO.wav",
+      "Path": "Media/195917413.wem",
+      "CachePath": "SFX/KO_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1719082483",
+      "Name": "KO",
+      "ObjectPath": "\\Events\\Default Work Unit\\KO",
+      "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2337415",
+      "DurationMax": "1.2337415",
+      "MediaRefs": [
+       {
+        "Id": "195917413"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2044049779",
     "Type": "Event",
     "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
@@ -304,6 +415,43 @@
       "MediaRefs": [
        {
         "Id": "356742842"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2709628650",
+    "Type": "Event",
+    "GUID": "{9AA94435-A7F4-4F5E-87D7-6248090319D6}",
+    "Language": "SFX",
+    "Hash": "{1B9159EA-7B93-7F69-0EFD-069517743E9E}",
+    "ObjectPath": "_321Fight",
+    "ShortName": "_321Fight",
+    "Path": "Event/_321Fight.bnk",
+    "Media": [
+     {
+      "Id": "219847582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "321Fight.wav",
+      "Path": "Media/219847582.wem",
+      "CachePath": "SFX/321Fight_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2709628650",
+      "Name": "_321Fight",
+      "ObjectPath": "\\Events\\Default Work Unit\\_321Fight",
+      "GUID": "{9AA94435-A7F4-4F5E-87D7-6248090319D6}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.477483",
+      "DurationMax": "3.477483",
+      "MediaRefs": [
+       {
+        "Id": "219847582"
        }
       ]
      }
@@ -351,7 +499,7 @@
     "Type": "Event",
     "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
     "Language": "SFX",
-    "Hash": "{F1F3689C-1AFA-8F17-FF56-14BD87780401}",
+    "Hash": "{984AA117-4393-8F4A-84ED-81D67E055AE7}",
     "ObjectPath": "Impact",
     "ShortName": "Impact",
     "Path": "Event/Impact.bnk",
@@ -408,6 +556,6 @@
     ]
    }
   ],
-  "FileHash": "{E5C713D1-AD11-0442-090F-77D789BC4F60}"
+  "FileHash": "{CBB345F7-B49E-E8B6-77E9-D8590618D64B}"
  }
 }

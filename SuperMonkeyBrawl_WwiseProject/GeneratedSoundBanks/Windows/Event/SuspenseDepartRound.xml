@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{0FBDF70A-E609-D4EA-71B1-D314B9A3E0A4}">
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{1765DEF2-8B5E-7660-2107-F96F3C41FAED}">
 			<ObjectPath>SuspenseDepartRound</ObjectPath>
 			<ShortName>SuspenseDepartRound</ShortName>
 			<Path>Event/SuspenseDepartRound.bnk</Path>
@@ -9,11 +9,11 @@
 				<File Id="1042688671" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Suspense-3-2-1.wav</ShortName>
 					<Path>Media/1042688671.wem</Path>
-					<CachePath>SFX/Suspense-3-2-1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Suspense-3-2-1_0021B44C.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1082794189" Name="SuspenseDepartRound" ObjectPath="\Events\Default Work Unit\SuspenseDepartRound" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" DurationType="OneShot" DurationMin="10.63475" DurationMax="10.63475">
+				<Event Id="1082794189" Name="SuspenseDepartRound" ObjectPath="\Events\Default Work Unit\SuspenseDepartRound" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" DurationType="OneShot" DurationMin="8.653768" DurationMax="8.653768">
 					<MediaRefs>
 						<MediaRef Id="1042688671"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BF4582F4-38FF-2D07-9BF6-D50F96383BA0}</FileHash>
+	<FileHash>{A39AEB11-0FCF-A21B-3413-1065846B6443}</FileHash>
 </SoundBanksInfo>
