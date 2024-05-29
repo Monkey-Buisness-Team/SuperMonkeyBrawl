@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
     "Language": "SFX",
-    "Hash": "{EE37E91E-816E-A744-5601-3DF11DE96005}",
+    "Hash": "{BBE3F70A-EFC8-CBB2-3C1A-5E334B855DA5}",
     "ObjectPath": "KO",
     "ShortName": "KO",
     "Path": "Event/KO.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{20C42504-BB70-6780-ABB2-85945F099E60}"
+  "FileHash": "{A6F0C941-4A9E-11BB-7C8A-F1EC467A2DFF}"
  }
 }

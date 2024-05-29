@@ -111,7 +111,7 @@
 				<File Id="1042688671" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Suspense-3-2-1.wav</ShortName>
 					<Path>Media/1042688671.wem</Path>
-					<CachePath>SFX/Suspense-3-2-1_0021B44C.wem</CachePath>
+					<CachePath>SFX/Suspense-3-2-1_2A566461.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -174,7 +174,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{EE37E91E-816E-A744-5601-3DF11DE96005}">
+		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{BBE3F70A-EFC8-CBB2-3C1A-5E334B855DA5}">
 			<ObjectPath>KO</ObjectPath>
 			<ShortName>KO</ShortName>
 			<Path>Event/KO.bnk</Path>
@@ -193,7 +193,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{55C71471-1C8A-2B0D-B802-335AB838EBB2}">
+		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{21C6D885-3ACB-DE9D-E6A0-D9F03F5F33F9}">
 			<ObjectPath>Dead</ObjectPath>
 			<ShortName>Dead</ShortName>
 			<Path>Event/Dead.bnk</Path>
@@ -282,5 +282,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{070C5251-BC02-3D1F-BCCE-739672F24F0A}</FileHash>
+	<FileHash>{3934E784-6C65-5016-96D4-A6146DAD42E7}</FileHash>
 </SoundBanksInfo>

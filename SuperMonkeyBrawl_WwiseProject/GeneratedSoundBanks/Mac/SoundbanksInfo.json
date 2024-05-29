@@ -214,7 +214,7 @@
       "Location": "Loose",
       "ShortName": "Suspense-3-2-1.wav",
       "Path": "Media/1042688671.wem",
-      "CachePath": "SFX/Suspense-3-2-1_0021B44C.wem"
+      "CachePath": "SFX/Suspense-3-2-1_2A566461.wem"
      }
     ],
     "Events": [
@@ -351,7 +351,7 @@
     "Type": "Event",
     "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
     "Language": "SFX",
-    "Hash": "{EE37E91E-816E-A744-5601-3DF11DE96005}",
+    "Hash": "{BBE3F70A-EFC8-CBB2-3C1A-5E334B855DA5}",
     "ObjectPath": "KO",
     "ShortName": "KO",
     "Path": "Event/KO.bnk",
@@ -388,7 +388,7 @@
     "Type": "Event",
     "GUID": "{26E02227-689E-45F8-80DD-3637A16A21F7}",
     "Language": "SFX",
-    "Hash": "{55C71471-1C8A-2B0D-B802-335AB838EBB2}",
+    "Hash": "{21C6D885-3ACB-DE9D-E6A0-D9F03F5F33F9}",
     "ObjectPath": "Dead",
     "ShortName": "Dead",
     "Path": "Event/Dead.bnk",
@@ -556,6 +556,6 @@
     ]
    }
   ],
-  "FileHash": "{73AD619A-9070-95A0-98E0-3D0280256E1E}"
+  "FileHash": "{DCC86A56-8CD7-EAA2-5AE8-FED119C5039D}"
  }
 }

@@ -9,7 +9,7 @@
 				<File Id="1042688671" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Suspense-3-2-1.wav</ShortName>
 					<Path>Media/1042688671.wem</Path>
-					<CachePath>SFX/Suspense-3-2-1_0021B44C.wem</CachePath>
+					<CachePath>SFX/Suspense-3-2-1_2A566461.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{08644A36-48D3-8B8E-45AF-4FC5361FFA53}</FileHash>
+	<FileHash>{25AF4236-D892-C231-F1CF-732C5E3E4752}</FileHash>
 </SoundBanksInfo>

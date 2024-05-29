@@ -10,6 +10,11 @@
 								<Value>150</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -418,6 +423,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="KO" ID="{C9AE698C-194C-44E5-A7C7-F857354552E4}" ShortID="847745063">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>

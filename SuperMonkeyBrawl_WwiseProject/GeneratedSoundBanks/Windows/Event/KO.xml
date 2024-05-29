@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{EE37E91E-816E-A744-5601-3DF11DE96005}">
+		<SoundBank Id="1719082483" Type="Event" GUID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}" Language="SFX" Hash="{BBE3F70A-EFC8-CBB2-3C1A-5E334B855DA5}">
 			<ObjectPath>KO</ObjectPath>
 			<ShortName>KO</ShortName>
 			<Path>Event/KO.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{81D775F6-84B4-E992-0ED2-D903F92AFAD0}</FileHash>
+	<FileHash>{11A358FA-86BF-CDA7-A0F2-50E86954394C}</FileHash>
 </SoundBanksInfo>

@@ -115,7 +115,7 @@
 				</Event>
 				<Event Name="KO" ID="{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}">
 					<ChildrenList>
-						<Action Name="" ID="{878A4DBF-876C-4CDF-BA6A-D4F757F04844}" ShortID="85403496">
+						<Action Name="" ID="{0581B417-4759-43AA-8548-745D3A2A3675}" ShortID="1026802419">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="KO" ID="{C9AE698C-194C-44E5-A7C7-F857354552E4}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
