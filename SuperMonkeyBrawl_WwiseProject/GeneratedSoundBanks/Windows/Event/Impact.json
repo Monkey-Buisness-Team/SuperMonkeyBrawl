@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CACF35B4-E345-4AAD-AE94-866105F79554}",
     "Language": "SFX",
-    "Hash": "{F1F3689C-1AFA-8F17-FF56-14BD87780401}",
+    "Hash": "{984AA117-4393-8F4A-84ED-81D67E055AE7}",
     "ObjectPath": "Impact",
     "ShortName": "Impact",
     "Path": "Event/Impact.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{FC163117-669C-CBBA-78C4-3FAA6111027E}"
+  "FileHash": "{230AF6B2-B105-42DC-7C8D-808A9D6E3DF7}"
  }
 }

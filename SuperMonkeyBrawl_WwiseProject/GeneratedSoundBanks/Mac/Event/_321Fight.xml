@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2709628650" Type="Event" GUID="{9AA94435-A7F4-4F5E-87D7-6248090319D6}" Language="SFX" Hash="{1B9159EA-7B93-7F69-0EFD-069517743E9E}">
+			<ObjectPath>_321Fight</ObjectPath>
+			<ShortName>_321Fight</ShortName>
+			<Path>Event/_321Fight.bnk</Path>
+			<Media>
+				<File Id="219847582" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>321Fight.wav</ShortName>
+					<Path>Media/219847582.wem</Path>
+					<CachePath>SFX/321Fight_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2709628650" Name="_321Fight" ObjectPath="\Events\Default Work Unit\_321Fight" GUID="{9AA94435-A7F4-4F5E-87D7-6248090319D6}" DurationType="OneShot" DurationMin="3.477483" DurationMax="3.477483">
+					<MediaRefs>
+						<MediaRef Id="219847582"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FB7581DF-C566-36CD-4D6C-781AAAD95B62}</FileHash>
+</SoundBanksInfo>

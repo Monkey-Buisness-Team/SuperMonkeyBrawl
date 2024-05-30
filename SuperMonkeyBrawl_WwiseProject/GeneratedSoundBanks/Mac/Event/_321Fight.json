@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2709628650",
+    "Type": "Event",
+    "GUID": "{9AA94435-A7F4-4F5E-87D7-6248090319D6}",
+    "Language": "SFX",
+    "Hash": "{1B9159EA-7B93-7F69-0EFD-069517743E9E}",
+    "ObjectPath": "_321Fight",
+    "ShortName": "_321Fight",
+    "Path": "Event/_321Fight.bnk",
+    "Media": [
+     {
+      "Id": "219847582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "321Fight.wav",
+      "Path": "Media/219847582.wem",
+      "CachePath": "SFX/321Fight_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2709628650",
+      "Name": "_321Fight",
+      "ObjectPath": "\\Events\\Default Work Unit\\_321Fight",
+      "GUID": "{9AA94435-A7F4-4F5E-87D7-6248090319D6}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.477483",
+      "DurationMax": "3.477483",
+      "MediaRefs": [
+       {
+        "Id": "219847582"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{67C3DCCD-2369-C023-E402-01F5812249A2}"
+ }
+}

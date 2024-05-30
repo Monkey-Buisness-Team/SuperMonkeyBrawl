@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{F1F3689C-1AFA-8F17-FF56-14BD87780401}">
+		<SoundBank Id="3257506471" Type="Event" GUID="{CACF35B4-E345-4AAD-AE94-866105F79554}" Language="SFX" Hash="{984AA117-4393-8F4A-84ED-81D67E055AE7}">
 			<ObjectPath>Impact</ObjectPath>
 			<ShortName>Impact</ShortName>
 			<Path>Event/Impact.bnk</Path>
@@ -33,5 +33,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E39B1ED-8817-AC7E-C82B-ED4985D19031}</FileHash>
+	<FileHash>{D629B3B6-6E68-915D-F500-5EC99F5F8E8A}</FileHash>
 </SoundBanksInfo>

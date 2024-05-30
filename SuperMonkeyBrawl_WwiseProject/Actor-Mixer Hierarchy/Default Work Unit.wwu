@@ -10,6 +10,11 @@
 								<Value>150</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -55,6 +60,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Suspense-3-2-1" ID="{5BADC304-C02D-400C-8D2B-B3BF76407413}" ShortID="202070552">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
@@ -65,6 +77,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Suspense-3-2-1" ID="{0F781903-3385-4FE0-93EB-73A2995A0688}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.98098284313725"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Suspense-3-2-1.wav</AudioFile>
 							<MediaIDList>
@@ -257,6 +273,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="RandomInpact" ID="{70FB8FF4-3961-4E18-8A80-C4408BEE40E1}" ShortID="162267525">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
@@ -355,6 +378,101 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="321Fight" ID="{D2DC4F9E-F9EB-4DDB-97A0-F44485D1B178}" ShortID="1045714660">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="321Fight" ID="{613CA646-79B0-418C-B4FA-32995D449F16}">
+							<Language>SFX</Language>
+							<AudioFile>321Fight.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="219847582"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="321Fight" ID="{613CA646-79B0-418C-B4FA-32995D449F16}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Victoire" ID="{F9716600-628A-483D-A86E-FEB2020BAE19}" ShortID="347218335">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Victoire" ID="{F4BCEC7E-7ACA-4CD2-9FB5-4717B16EC212}">
+							<Language>SFX</Language>
+							<AudioFile>Victoire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="384266273"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Victoire" ID="{F4BCEC7E-7ACA-4CD2-9FB5-4717B16EC212}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="KO" ID="{C9AE698C-194C-44E5-A7C7-F857354552E4}" ShortID="847745063">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="KO" ID="{A6EE0ABC-5286-4ED7-AAB1-8C3FEAC57E8D}">
+							<Language>SFX</Language>
+							<AudioFile>KO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="195917413"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="KO" ID="{A6EE0ABC-5286-4ED7-AAB1-8C3FEAC57E8D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GetReady" ID="{E265E526-FF81-46C9-B7EF-006D1CF71469}" ShortID="461170770">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GetReady" ID="{9FE116EC-16E4-42B8-B3E6-87C3FF1AF582}">
+							<Language>SFX</Language>
+							<AudioFile>GetReady.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="350215718"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GetReady" ID="{9FE116EC-16E4-42B8-B3E6-87C3FF1AF582}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

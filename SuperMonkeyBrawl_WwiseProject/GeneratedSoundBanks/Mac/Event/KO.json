@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1719082483",
+    "Type": "Event",
+    "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
+    "Language": "SFX",
+    "Hash": "{BBE3F70A-EFC8-CBB2-3C1A-5E334B855DA5}",
+    "ObjectPath": "KO",
+    "ShortName": "KO",
+    "Path": "Event/KO.bnk",
+    "Media": [
+     {
+      "Id": "195917413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KO.wav",
+      "Path": "Media/195917413.wem",
+      "CachePath": "SFX/KO_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1719082483",
+      "Name": "KO",
+      "ObjectPath": "\\Events\\Default Work Unit\\KO",
+      "GUID": "{1E48F43E-60D2-45EC-892B-34CBE7D7F7C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2337415",
+      "DurationMax": "1.2337415",
+      "MediaRefs": [
+       {
+        "Id": "195917413"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A6F0C941-4A9E-11BB-7C8A-F1EC467A2DFF}"
+ }
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{55C71471-1C8A-2B0D-B802-335AB838EBB2}">
+		<SoundBank Id="2044049779" Type="Event" GUID="{26E02227-689E-45F8-80DD-3637A16A21F7}" Language="SFX" Hash="{21C6D885-3ACB-DE9D-E6A0-D9F03F5F33F9}">
 			<ObjectPath>Dead</ObjectPath>
 			<ShortName>Dead</ShortName>
 			<Path>Event/Dead.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C1EF134-66F5-1942-5F7C-5FCC10A36CCF}</FileHash>
+	<FileHash>{4282ACE7-A6BA-23AA-99F9-C35104CC6691}</FileHash>
 </SoundBanksInfo>
