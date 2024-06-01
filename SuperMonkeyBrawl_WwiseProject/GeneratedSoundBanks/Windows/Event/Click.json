@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}",
     "Language": "SFX",
-    "Hash": "{DBD918D0-D8B4-6B1D-4BEB-98DDEA4395D7}",
+    "Hash": "{9ABE082C-F942-99CC-0109-3C56441CA56D}",
     "ObjectPath": "Click",
     "ShortName": "Click",
     "Path": "Event/Click.bnk",
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Click",
       "GUID": "{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.552",
-      "DurationMax": "0.552",
+      "DurationMin": "0.31004167",
+      "DurationMax": "0.31004167",
       "MediaRefs": [
        {
         "Id": "823040339"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CCA0A15D-5D0F-F36F-AA0E-CEF6CB810AF9}"
+  "FileHash": "{ADD16D8B-3CBB-4E28-DAD4-38DB02AC5554}"
  }
 }

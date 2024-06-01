@@ -27,7 +27,7 @@
 				</Event>
 				<Event Name="Click" ID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}">
 					<ChildrenList>
-						<Action Name="" ID="{6290C80C-4DFF-4352-A18E-CAD93DEA1FAB}" ShortID="285281303">
+						<Action Name="" ID="{83211C0E-A19C-41BB-ABD3-0490549CD718}" ShortID="449463459">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="click" ID="{810E6F89-F41B-4EBF-B92D-E4336C69D6A6}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
@@ -130,6 +130,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Victoire" ID="{F9716600-628A-483D-A86E-FEB2020BAE19}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hover" ID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}">
+					<ChildrenList>
+						<Action Name="" ID="{42D352D0-44F4-4152-B8FA-6AF1A932D532}" ShortID="77283095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hover" ID="{24D0ED8F-5973-43E4-B7D9-F8CE6EF2BEF4}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

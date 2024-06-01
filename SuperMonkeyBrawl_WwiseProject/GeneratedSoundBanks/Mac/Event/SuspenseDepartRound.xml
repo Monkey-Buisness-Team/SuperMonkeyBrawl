@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{1765DEF2-8B5E-7660-2107-F96F3C41FAED}">
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{4E1EE8D2-EFAB-95F9-9975-92F99A80ACC2}">
 			<ObjectPath>SuspenseDepartRound</ObjectPath>
 			<ShortName>SuspenseDepartRound</ShortName>
 			<Path>Event/SuspenseDepartRound.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{25AF4236-D892-C231-F1CF-732C5E3E4752}</FileHash>
+	<FileHash>{14023AA5-C94B-6D6F-0F75-CAD56F0D464B}</FileHash>
 </SoundBanksInfo>

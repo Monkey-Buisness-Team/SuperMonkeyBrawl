@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3753593413	hover			\Default Work Unit\hover	
+

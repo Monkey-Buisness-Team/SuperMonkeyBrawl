@@ -103,7 +103,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{1765DEF2-8B5E-7660-2107-F96F3C41FAED}">
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{4E1EE8D2-EFAB-95F9-9975-92F99A80ACC2}">
 			<ObjectPath>SuspenseDepartRound</ObjectPath>
 			<ShortName>SuspenseDepartRound</ShortName>
 			<Path>Event/SuspenseDepartRound.bnk</Path>
@@ -155,7 +155,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1584507803" Type="Event" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" Language="SFX" Hash="{DBD918D0-D8B4-6B1D-4BEB-98DDEA4395D7}">
+		<SoundBank Id="1584507803" Type="Event" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" Language="SFX" Hash="{9ABE082C-F942-99CC-0109-3C56441CA56D}">
 			<ObjectPath>Click</ObjectPath>
 			<ShortName>Click</ShortName>
 			<Path>Event/Click.bnk</Path>
@@ -167,7 +167,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" DurationType="OneShot" DurationMin="0.552" DurationMax="0.552">
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\Click" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" DurationType="OneShot" DurationMin="0.31004167" DurationMax="0.31004167">
 					<MediaRefs>
 						<MediaRef Id="823040339"/>
 					</MediaRefs>
@@ -281,6 +281,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3753593413" Type="Event" GUID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}" Language="SFX" Hash="{AD108338-D03A-E072-171C-60B365ADA6D0}">
+			<ObjectPath>hover</ObjectPath>
+			<ShortName>hover</ShortName>
+			<Path>Event/hover.bnk</Path>
+			<Media>
+				<File Id="179757273" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>hover sound.wav</ShortName>
+					<Path>Media/179757273.wem</Path>
+					<CachePath>SFX/hover sound_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3753593413" Name="hover" ObjectPath="\Events\Default Work Unit\hover" GUID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}" DurationType="OneShot" DurationMin="0.034208335" DurationMax="0.034208335">
+					<MediaRefs>
+						<MediaRef Id="179757273"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3934E784-6C65-5016-96D4-A6146DAD42E7}</FileHash>
+	<FileHash>{84030FD5-2E57-9A56-6A54-9C0844C7C1C3}</FileHash>
 </SoundBanksInfo>

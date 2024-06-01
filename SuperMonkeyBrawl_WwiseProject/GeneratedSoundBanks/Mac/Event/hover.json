@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3753593413",
+    "Type": "Event",
+    "GUID": "{18871E12-DD71-4A8C-A8EC-D7C9232688EA}",
+    "Language": "SFX",
+    "Hash": "{AD108338-D03A-E072-171C-60B365ADA6D0}",
+    "ObjectPath": "hover",
+    "ShortName": "hover",
+    "Path": "Event/hover.bnk",
+    "Media": [
+     {
+      "Id": "179757273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "hover sound.wav",
+      "Path": "Media/179757273.wem",
+      "CachePath": "SFX/hover sound_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3753593413",
+      "Name": "hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\hover",
+      "GUID": "{18871E12-DD71-4A8C-A8EC-D7C9232688EA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.034208335",
+      "DurationMax": "0.034208335",
+      "MediaRefs": [
+       {
+        "Id": "179757273"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A91CA33E-268E-7F5B-DF4B-F5E55EEE241F}"
+ }
+}
