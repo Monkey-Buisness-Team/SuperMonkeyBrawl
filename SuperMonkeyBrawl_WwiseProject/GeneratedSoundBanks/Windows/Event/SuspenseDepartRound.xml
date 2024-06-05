@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{1765DEF2-8B5E-7660-2107-F96F3C41FAED}">
+		<SoundBank Id="1082794189" Type="Event" GUID="{9AF6432F-61DA-4343-A8B9-775185C943AB}" Language="SFX" Hash="{4E1EE8D2-EFAB-95F9-9975-92F99A80ACC2}">
 			<ObjectPath>SuspenseDepartRound</ObjectPath>
 			<ShortName>SuspenseDepartRound</ShortName>
 			<Path>Event/SuspenseDepartRound.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0F889961-B1FF-F4E1-44C8-EFCED08ED6A4}</FileHash>
+	<FileHash>{4CA60B09-70C1-93A4-0E90-57A9B331FD1F}</FileHash>
 </SoundBanksInfo>

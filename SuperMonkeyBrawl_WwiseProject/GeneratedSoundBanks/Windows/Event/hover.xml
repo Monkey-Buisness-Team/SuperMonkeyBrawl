@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3753593413" Type="Event" GUID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}" Language="SFX" Hash="{AD108338-D03A-E072-171C-60B365ADA6D0}">
+			<ObjectPath>hover</ObjectPath>
+			<ShortName>hover</ShortName>
+			<Path>Event/hover.bnk</Path>
+			<Media>
+				<File Id="179757273" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>hover sound.wav</ShortName>
+					<Path>Media/179757273.wem</Path>
+					<CachePath>SFX/hover sound_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3753593413" Name="hover" ObjectPath="\Events\Default Work Unit\hover" GUID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}" DurationType="OneShot" DurationMin="0.034208335" DurationMax="0.034208335">
+					<MediaRefs>
+						<MediaRef Id="179757273"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CD62DB3C-01A1-E689-E80F-5C25A67A56E4}</FileHash>
+</SoundBanksInfo>

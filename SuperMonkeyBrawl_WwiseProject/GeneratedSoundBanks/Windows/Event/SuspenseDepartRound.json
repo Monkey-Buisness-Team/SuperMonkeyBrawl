@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9AF6432F-61DA-4343-A8B9-775185C943AB}",
     "Language": "SFX",
-    "Hash": "{1765DEF2-8B5E-7660-2107-F96F3C41FAED}",
+    "Hash": "{4E1EE8D2-EFAB-95F9-9975-92F99A80ACC2}",
     "ObjectPath": "SuspenseDepartRound",
     "ShortName": "SuspenseDepartRound",
     "Path": "Event/SuspenseDepartRound.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{130AF929-7ADB-3600-F716-109B5FBBAB98}"
+  "FileHash": "{3ECE71AB-98D3-6EDB-086F-3C82E33C37D1}"
  }
 }
