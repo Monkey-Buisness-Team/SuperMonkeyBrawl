@@ -146,6 +146,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StartTimer" ID="{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}">
+					<ChildrenList>
+						<Action Name="" ID="{42E2BBD6-BEFE-414C-8C07-E0B8FB3E06A0}" ShortID="660794386">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="30STimer" ID="{F5E9E111-C0CA-486D-A151-7CCFDAA359CF}" WorkUnitID="{69299F73-DBB6-44A9-89A2-3F24194F8C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
