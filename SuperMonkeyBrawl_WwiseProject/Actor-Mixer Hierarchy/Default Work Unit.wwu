@@ -506,6 +506,28 @@
 						<ActiveSource Name="hover sound" ID="{6E498546-EEDE-427D-AD18-430DEC435E09}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="30STimer" ID="{F5E9E111-C0CA-486D-A151-7CCFDAA359CF}" ShortID="806753084">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F81FDE11-7506-46AB-B456-085790DCB9FE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6155D9A8-EF7D-48C2-B5E6-5722B89E69CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="30sTimer" ID="{0BF63196-15B8-43BF-9CA9-FE7A4762705B}">
+							<Language>SFX</Language>
+							<AudioFile>30sTimer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="487736901"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="30sTimer" ID="{0BF63196-15B8-43BF-9CA9-FE7A4762705B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

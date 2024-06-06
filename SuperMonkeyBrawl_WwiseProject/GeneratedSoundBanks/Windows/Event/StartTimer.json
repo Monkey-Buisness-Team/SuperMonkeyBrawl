@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3320875174",
+    "Type": "Event",
+    "GUID": "{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}",
+    "Language": "SFX",
+    "Hash": "{2995EB64-AFD4-7D7B-0B6B-9B65FE3DF34A}",
+    "ObjectPath": "StartTimer",
+    "ShortName": "StartTimer",
+    "Path": "Event/StartTimer.bnk",
+    "Media": [
+     {
+      "Id": "487736901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "30sTimer.wav",
+      "Path": "Media/487736901.wem",
+      "CachePath": "SFX/30sTimer_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3320875174",
+      "Name": "StartTimer",
+      "ObjectPath": "\\Events\\Default Work Unit\\StartTimer",
+      "GUID": "{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}",
+      "DurationType": "OneShot",
+      "DurationMin": "29.70145",
+      "DurationMax": "29.70145",
+      "MediaRefs": [
+       {
+        "Id": "487736901"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9E5ACBEC-5C6E-A9ED-CBF7-0F40AC8FDEB2}"
+ }
+}

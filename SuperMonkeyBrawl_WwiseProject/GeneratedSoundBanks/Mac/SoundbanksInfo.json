@@ -556,6 +556,43 @@
     ]
    },
    {
+    "Id": "3320875174",
+    "Type": "Event",
+    "GUID": "{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}",
+    "Language": "SFX",
+    "Hash": "{2995EB64-AFD4-7D7B-0B6B-9B65FE3DF34A}",
+    "ObjectPath": "StartTimer",
+    "ShortName": "StartTimer",
+    "Path": "Event/StartTimer.bnk",
+    "Media": [
+     {
+      "Id": "487736901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "30sTimer.wav",
+      "Path": "Media/487736901.wem",
+      "CachePath": "SFX/30sTimer_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3320875174",
+      "Name": "StartTimer",
+      "ObjectPath": "\\Events\\Default Work Unit\\StartTimer",
+      "GUID": "{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}",
+      "DurationType": "OneShot",
+      "DurationMin": "29.70145",
+      "DurationMax": "29.70145",
+      "MediaRefs": [
+       {
+        "Id": "487736901"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "3753593413",
     "Type": "Event",
     "GUID": "{18871E12-DD71-4A8C-A8EC-D7C9232688EA}",
@@ -593,6 +630,6 @@
     ]
    }
   ],
-  "FileHash": "{E4554359-8588-848B-DC70-9FD6DF76A1CA}"
+  "FileHash": "{1E39480F-B1F0-6A9D-FF47-CD935062C1C7}"
  }
 }

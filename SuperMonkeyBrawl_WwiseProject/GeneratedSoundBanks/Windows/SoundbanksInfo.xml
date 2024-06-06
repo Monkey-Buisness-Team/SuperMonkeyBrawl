@@ -281,6 +281,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3320875174" Type="Event" GUID="{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}" Language="SFX" Hash="{2995EB64-AFD4-7D7B-0B6B-9B65FE3DF34A}">
+			<ObjectPath>StartTimer</ObjectPath>
+			<ShortName>StartTimer</ShortName>
+			<Path>Event/StartTimer.bnk</Path>
+			<Media>
+				<File Id="487736901" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>30sTimer.wav</ShortName>
+					<Path>Media/487736901.wem</Path>
+					<CachePath>SFX/30sTimer_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3320875174" Name="StartTimer" ObjectPath="\Events\Default Work Unit\StartTimer" GUID="{D6258F6C-2ED8-4CFE-845E-DD4D7E5C2219}" DurationType="OneShot" DurationMin="29.70145" DurationMax="29.70145">
+					<MediaRefs>
+						<MediaRef Id="487736901"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="3753593413" Type="Event" GUID="{18871E12-DD71-4A8C-A8EC-D7C9232688EA}" Language="SFX" Hash="{AD108338-D03A-E072-171C-60B365ADA6D0}">
 			<ObjectPath>hover</ObjectPath>
 			<ShortName>hover</ShortName>
@@ -301,5 +320,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84030FD5-2E57-9A56-6A54-9C0844C7C1C3}</FileHash>
+	<FileHash>{45C29182-2187-7FE1-D6F9-63B850EFA0CB}</FileHash>
 </SoundBanksInfo>
