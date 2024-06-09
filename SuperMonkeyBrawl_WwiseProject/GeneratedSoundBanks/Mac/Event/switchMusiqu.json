@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}",
     "Language": "SFX",
-    "Hash": "{6550F20B-D445-9B84-439D-28C5AA2F9991}",
+    "Hash": "{5EB3C757-29D5-1654-D0C5-58319B784E0D}",
     "ObjectPath": "switchMusiqu",
     "ShortName": "switchMusiqu",
     "Path": "Event/switchMusiqu.bnk",
@@ -101,6 +101,6 @@
     ]
    }
   ],
-  "FileHash": "{DBE6796C-6917-359E-4914-DA65E67D1723}"
+  "FileHash": "{FC9B8A2D-1A2C-F5F1-336F-B0F559B29DA6}"
  }
 }

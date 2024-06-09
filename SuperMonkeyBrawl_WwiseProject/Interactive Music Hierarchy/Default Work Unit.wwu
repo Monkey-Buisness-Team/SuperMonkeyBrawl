@@ -105,6 +105,11 @@
 								<MusicSegment Name="ambianceMenu" ID="{6EECDEF7-A6E1-4404-953C-B284AC8FAE4D}" ShortID="883175838">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="198060.408163265"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -237,6 +242,11 @@
 								<MusicSegment Name="Bruit ambiance" ID="{FF96644E-24A2-49FC-A595-9B22D84F9622}" ShortID="1060944856">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="198545.464852608"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-25</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

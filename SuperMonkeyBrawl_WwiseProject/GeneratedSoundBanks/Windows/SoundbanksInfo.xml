@@ -65,7 +65,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{6550F20B-D445-9B84-439D-28C5AA2F9991}">
+		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{5EB3C757-29D5-1654-D0C5-58319B784E0D}">
 			<ObjectPath>switchMusiqu</ObjectPath>
 			<ShortName>switchMusiqu</ShortName>
 			<Path>Event/switchMusiqu.bnk</Path>
@@ -373,5 +373,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2ACFE1FD-462A-C478-7481-76F9C6D6CF47}</FileHash>
+	<FileHash>{28E8269D-6D31-F846-8283-491BFECF8BA7}</FileHash>
 </SoundBanksInfo>

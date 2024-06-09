@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{6550F20B-D445-9B84-439D-28C5AA2F9991}">
+		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{5EB3C757-29D5-1654-D0C5-58319B784E0D}">
 			<ObjectPath>switchMusiqu</ObjectPath>
 			<ShortName>switchMusiqu</ShortName>
 			<Path>Event/switchMusiqu.bnk</Path>
@@ -46,5 +46,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E4C8CE5-0996-BDCE-9D66-1495399ED59E}</FileHash>
+	<FileHash>{751CDD93-14A0-C69B-7AA1-EC370A4D41F6}</FileHash>
 </SoundBanksInfo>
