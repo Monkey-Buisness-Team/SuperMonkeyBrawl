@@ -65,6 +65,50 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{6550F20B-D445-9B84-439D-28C5AA2F9991}">
+			<ObjectPath>switchMusiqu</ObjectPath>
+			<ShortName>switchMusiqu</ShortName>
+			<Path>Event/switchMusiqu.bnk</Path>
+			<Media>
+				<File Id="767187396" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bruit ambiance.wav</ShortName>
+					<Path>Media/767187396.wem</Path>
+					<CachePath>SFX/Bruit ambiance_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="993568170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ambianceMenu.wav</ShortName>
+					<Path>Media/993568170.wem</Path>
+					<CachePath>SFX/ambianceMenu_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="849280025" Name="switchMusiqu" ObjectPath="\Events\Default Work Unit\switchMusiqu" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="849702087" GUID="{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"/>
+							<MediaRefs>
+								<MediaRef Id="767187396"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3074451236" GUID="{FD888C82-CF9D-44F4-BB93-F347E7817101}"/>
+							<MediaRefs>
+								<MediaRef Id="993568170"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{6AE055F8-0FE1-45C6-B9C7-A6C7B13E47D0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{00DB2C60-E353-4593-9DFB-CF5B88D828C2}"/>
+						<State Id="849702087" Name="jeuAmbiance" ObjectPath="\States\Default Work Unit\Music\jeuAmbiance" GUID="{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"/>
+						<State Id="3074451236" Name="menuAmbiance" ObjectPath="\States\Default Work Unit\Music\menuAmbiance" GUID="{FD888C82-CF9D-44F4-BB93-F347E7817101}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
 		<SoundBank Id="849702087" Type="Event" GUID="{FDA340C5-E6B2-479B-BA0D-AD2175330753}" Language="SFX" Hash="{1B2EBB12-6D87-0D6D-27E0-D450B721D2E3}">
 			<ObjectPath>JeuAmbiance</ObjectPath>
 			<ShortName>JeuAmbiance</ShortName>
@@ -141,7 +185,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E2674042-B2B5-244B-5424-E30A31B76413}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -154,6 +198,15 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{6AE055F8-0FE1-45C6-B9C7-A6C7B13E47D0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{00DB2C60-E353-4593-9DFB-CF5B88D828C2}"/>
+						<State Id="849702087" Name="jeuAmbiance" ObjectPath="\States\Default Work Unit\Music\jeuAmbiance" GUID="{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"/>
+						<State Id="3074451236" Name="menuAmbiance" ObjectPath="\States\Default Work Unit\Music\menuAmbiance" GUID="{FD888C82-CF9D-44F4-BB93-F347E7817101}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1584507803" Type="Event" GUID="{6D93DF48-598F-4531-BE85-A8E7AC7E93D8}" Language="SFX" Hash="{9ABE082C-F942-99CC-0109-3C56441CA56D}">
 			<ObjectPath>Click</ObjectPath>
@@ -320,5 +373,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45C29182-2187-7FE1-D6F9-63B850EFA0CB}</FileHash>
+	<FileHash>{2ACFE1FD-462A-C478-7481-76F9C6D6CF47}</FileHash>
 </SoundBanksInfo>

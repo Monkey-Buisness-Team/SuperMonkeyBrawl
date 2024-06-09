@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="849280025" Type="Event" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" Language="SFX" Hash="{6550F20B-D445-9B84-439D-28C5AA2F9991}">
+			<ObjectPath>switchMusiqu</ObjectPath>
+			<ShortName>switchMusiqu</ShortName>
+			<Path>Event/switchMusiqu.bnk</Path>
+			<Media>
+				<File Id="767187396" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bruit ambiance.wav</ShortName>
+					<Path>Media/767187396.wem</Path>
+					<CachePath>SFX/Bruit ambiance_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="993568170" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>ambianceMenu.wav</ShortName>
+					<Path>Media/993568170.wem</Path>
+					<CachePath>SFX/ambianceMenu_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="849280025" Name="switchMusiqu" ObjectPath="\Events\Default Work Unit\switchMusiqu" GUID="{A5FE7CA5-4B17-4584-BB21-8706E231C5EB}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="849702087" GUID="{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"/>
+							<MediaRefs>
+								<MediaRef Id="767187396"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3074451236" GUID="{FD888C82-CF9D-44F4-BB93-F347E7817101}"/>
+							<MediaRefs>
+								<MediaRef Id="993568170"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{6AE055F8-0FE1-45C6-B9C7-A6C7B13E47D0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{00DB2C60-E353-4593-9DFB-CF5B88D828C2}"/>
+						<State Id="849702087" Name="jeuAmbiance" ObjectPath="\States\Default Work Unit\Music\jeuAmbiance" GUID="{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"/>
+						<State Id="3074451236" Name="menuAmbiance" ObjectPath="\States\Default Work Unit\Music\menuAmbiance" GUID="{FD888C82-CF9D-44F4-BB93-F347E7817101}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8E4C8CE5-0996-BDCE-9D66-1495399ED59E}</FileHash>
+</SoundBanksInfo>

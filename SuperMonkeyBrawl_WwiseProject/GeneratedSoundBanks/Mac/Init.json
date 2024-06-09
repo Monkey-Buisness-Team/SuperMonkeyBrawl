@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{6B0FE488-414D-47D5-419A-E95FE58404D1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,37 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{6AE055F8-0FE1-45C6-B9C7-A6C7B13E47D0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{00DB2C60-E353-4593-9DFB-CF5B88D828C2}"
+       },
+       {
+        "Id": "849702087",
+        "Name": "jeuAmbiance",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\jeuAmbiance",
+        "GUID": "{F1967C1D-43AB-4D2B-BBB3-69C05D7D0A10}"
+       },
+       {
+        "Id": "3074451236",
+        "Name": "menuAmbiance",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\menuAmbiance",
+        "GUID": "{FD888C82-CF9D-44F4-BB93-F347E7817101}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{A8C32A0C-79F1-F4A7-91DA-B271B4967246}"
+  "FileHash": "{81218081-E6E9-5993-A04C-5BB2C284C415}"
  }
 }

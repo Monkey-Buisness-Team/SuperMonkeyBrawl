@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	849280025	switchMusiqu			\Default Work Unit\switchMusiqu	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	849702087	jeuAmbiance	Music			
+	3074451236	menuAmbiance	Music			
+
